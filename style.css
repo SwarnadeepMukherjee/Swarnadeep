@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.on-hover{
+    box-shadow: 0.5vh 0.5vh 1vh grey;
+}
+.on-hover:hover{
+    box-shadow: 1vh 1vh 2vh grey;
+    transition: ease-out 0.1s;
+}
+
+/*Navigation Bar*/
+header{
+    position: sticky;
+    background: black;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-family: 'Ubuntu', Courier, monospace;
+    font-size: 3vh;
+    color: rgb(255, 255, 255);
+}
+.navbar ul li a:hover{
+    color: rgb(121, 121, 121);
+}
+.navbar ul li{
+    padding: 4vh;
+    list-style: none;
+}
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    margin: 3vh;
+}
+#logo a img{
+    width: 30vh;
+}
+footer{
+    background: #000;
+    color: white;
+    font-family: 'Ubuntu', Courier, monospace;
+}
+footer p{
+    padding: 1vh;
+}
+
+/* Main Body */
+main{
+    background-color: white;
+}
+#wc{
+    margin: 3vh;
+    border-radius: 4vh;
+    border: 1.5px solid rgb(160, 159, 159);
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+}
+#wc img{
+    width: 90vh;
+    border-radius: 4vh;
+    margin: auto;
+}
+
+/* Uploades */
+#stone-paper-scissor img{
+    width: 60vh;
+    border-radius: 4vh;
+}
+.content-box{
+    margin: 3vh;
+    padding: 2vh;
+    border-radius: 4vh;
+    border: 1.5px solid rgb(160, 159, 159);
+    background-color: #f6f6f6;
+}
