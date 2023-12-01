@@ -86,10 +86,3 @@ main{
     border: 1.5px solid rgb(160, 159, 159);
     background-color: #f6f6f6;
 }
-.content-box ul{
-    display: flex;
-}
-.content-box ul li{
-    list-style-type: none;
-    padding: 2vh;
-}
