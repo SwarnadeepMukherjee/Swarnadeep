@@ -34,13 +34,13 @@
     left: 69vh;
 }
 .info a{
-    display: flex;
+    /* display: flex; */
     justify-content: end;
-}
-.versions ul{
-    padding: 0vh 4vh;
 }
 .versions h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 4vh;
+}
+.versions ul{
+    padding: 0vh 4vh;
 }
