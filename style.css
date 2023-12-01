@@ -89,7 +89,6 @@ main{
 .content-box ul{
     display: flex;
 }
-.content-box ul li{
-    list-style-type: none;
+.content-box ul a{
     padding: 2vh;
 }
